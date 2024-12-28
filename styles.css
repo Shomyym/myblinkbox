@@ -1,0 +1,230 @@
+.container{
+    display: flex;
+    gap: 150px;
+}
+.container:nth-child(2){
+    display: flex;
+    gap: 50px;  
+}
+.container:nth-child(3){
+    display: flex;
+    gap: 150px;  
+}
+.container:nth-child(4){
+    display: flex;
+    gap: 350px; 
+}
+.container:nth-child(5){
+    display: flex;
+    gap: 80px;  
+}
+.container:nth-child(6){
+    display: flex;
+    gap: 150px;  
+}
+.container:nth-child(7){
+    display: flex;
+    gap: 50px;  
+}
+.blinking-box1{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.blinking-box2{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-top: 100px;
+}
+.blinking-box3{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 450px;
+}
+.blinking-box4{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+}
+.blinking-box5{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+   
+}
+.blinking-box6{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+}
+.blinking-box7{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 400px;
+}
+.blinking-box8{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+}
+.blinking-box9{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+
+}
+.blinking-box10{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 400px;
+}
+.blinking-box11{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+}
+.blinking-box12{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 450px;
+}
+.blinking-box13{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+
+}
+.blinking-box14{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 500px;
+}
+.blinking-box15{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+}
+.blinking-box16{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 550px;
+}
+.blinking-box17 {
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    
+}
+.blinking-box18{
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    margin-left: 600px;
+    
+}
+/*.blinking-box19 {
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    
+}
+.blinking-box20 {
+    width: 50px;
+    height: 50px;
+    animation: blink 1s infinite;
+    margin-bottom: 2px;
+    
+}*/
+@keyframes blink{
+    0%, 100% {
+        background-color: tomato; 
+    }
+    45% {
+        background-color: pink;
+    }
+    75%{
+        background-color: maroon;
+    }
+}
+@keyframes blink1{
+    0%, 100% {
+        background-color: tomato; 
+    }
+    45% {
+        background-color: pink;
+    }
+    75%{
+        background-color: maroon;
+    }
+}
+@keyframes blink2{
+    0%, 100% {
+        background-color: maroon; 
+    }
+    45% {
+        background-color: tomato;
+    }
+    75%{
+        background-color: red;
+    }
+}
+@keyframes blink3{
+    0%, 100% {
+        background-color: red ; 
+    }
+    45% {
+        background-color: pink;
+    }
+    75%{
+        background-color: maroon;
+    }
+}
+.blinking-box16,.blinking-box17{
+    animation: blink2 1s infinite;
+}
+.blinking-box12,.blinking-box13{
+    animation: blink2 1s infinite;
+}
+.blinking-box7,.blinking-box8,.blinking-box9{
+    animation: blink2 1s infinite;
+}
+.blinking-box1,.blinking-box2{
+    animation: blink2 1s infinite;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-style: bold;
+}
+
+body{
+    background-image:url(bowa.jpeg);
+}
